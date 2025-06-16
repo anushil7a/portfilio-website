@@ -44,14 +44,16 @@
 
  	<!-- CSS
    ================================================== -->
+   <link rel="preload" href="css/base.css" as="style">
+   <link rel="preload" href="css/main.css" as="style">
    <link rel="stylesheet" href="css/base.css">  
    <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+   <link rel="stylesheet" href="css/vendor.css" media="print" onload="this.media='all'">     
 
    <!-- script
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
+	<script src="js/pace.min.js" defer></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <!--     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153937526-1"></script> -->
@@ -156,7 +158,7 @@
 
    			<div class="intro-info">
 
-   				<img src="images/pic3.png" alt="Anushil Adhikari's picture">
+   				<img src="images/pic3.png" alt="Anushil Adhikari's picture" loading="lazy">
 
    				<p class="lead">"Dreams as <font color="#008080">bright</font> as stars."</p>
 				   <p class="lead" style="margin-top: -40px; margin-left: 203px;">- Me</p>
@@ -171,7 +173,7 @@
 		<div class="col-four tab-full">
 			<div class="profile-image" style="position: relative; left: -50px; margin-top: 0px;">
 				<!-- Replace with the path to your image -->
-				<img src="images/profile_pic.JPEG" alt="Anushil Adhikari" style="width:100%; height:420px; object-fit: cover;">
+				<img src="images/profile_pic.JPEG" alt="Anushil Adhikari" style="width:100%; height:420px; object-fit: cover;" loading="lazy">
 			</div>
 		</div>
 		
@@ -253,7 +255,7 @@
 
 	   				<div class="timeline-header" style="margin-bottom: 0px;">
 						<div class="company-logo">
-							<img src="images/gmu.png" alt="GMU Logo" style="width:160px; height:auto">
+							<img src="images/gmu.png" alt="GMU Logo" style="width:160px; height:auto" loading="lazy">
 						</div>
 	   					<h3>Bachelor's Degree</h3>
 	   					<p>Jul 2022 - Dec 2025</p>
@@ -274,7 +276,7 @@
 
 	   				<div class="timeline-header">
 						<div class="company-logo" style="margin-top: -20px;">
-							<img src="images/aws.png" alt="AWS cloud practitioner Logo" style="width:160px; height:auto">
+							<img src="images/aws.png" alt="AWS cloud practitioner Logo" style="width:160px; height:auto" loading="lazy">
 						</div>
 						<h3 style="text-align: center;margin-left: 60px;">Certificate</h3>
 	   					<p>Jan 2024 - Jan 2027</p>
@@ -313,7 +315,7 @@
 
 					<div class="timeline-header">
 						<div class="company-logo">
-							<img src="images/channels4_profile.jpg" alt="Fannie Mae Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px">
+							<img src="images/channels4_profile.jpg" alt="Fannie Mae Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px" loading="lazy">
 						</div>
 						<h3 style="text-align: center;">Fannie Mae</h3>
 						<p>Jun 2025 - Present</p>
@@ -337,7 +339,7 @@
 
 					<div class="timeline-header">
 						<div class="company-logo">
-							<img src="images/colvin.jpeg" alt="Colvin Run Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px">
+							<img src="images/colvin.jpeg" alt="Colvin Run Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px" loading="lazy">
 						</div>
 						<h3>Colvin Run</h3>
 						<p>Sept 2024 - Dec 2024</p>
@@ -361,7 +363,7 @@
 
 					<div class="timeline-header">
 						<div class="company-logo">
-							<img src="images/f1.png" alt="Freddie Mac Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px">
+							<img src="images/f1.png" alt="Freddie Mac Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px" loading="lazy">
 						</div>
 						<h3 style="text-align: center;">Freddie Mac</h3>
 						<p>May 2024 - Aug 2024</p>
@@ -388,7 +390,7 @@
 
 					<div class="timeline-header">
 						<div class="company-logo">
-							<img src="images/sol.jpeg" alt="Solvitur Systems Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px">
+							<img src="images/sol.jpeg" alt="Solvitur Systems Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px" loading="lazy">
 						</div>
 						<h3>Solvitur Systems</h3>
 						<p>Jan 2024 - May 2024</p>
@@ -412,7 +414,7 @@
 
 					<div class="timeline-header">
 						<div class="company-logo">
-							<img src="images/Uber.webp" alt="Uber Logo" style="width:300px; height:auto; margin-left:30px; margin-top:60px">
+							<img src="images/Uber.webp" alt="Uber Logo" style="width:300px; height:auto; margin-left:30px; margin-top:60px" loading="lazy">
 						</div>
 						<h3 style="text-align: center;">Uber</h3>
 						<p>Jan 2023 - Aug 2023</p>
@@ -605,9 +607,9 @@
 
    <!-- Java Script
    ================================================== --> 
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
+   <script src="js/jquery-2.1.3.min.js" defer></script>
+   <script src="js/plugins.js" defer></script>
+   <script src="js/main.js" defer></script>
 
    <!-- Modals -->
    <div id="modal-outfit" class="custom-modal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); align-items:center; justify-content:center; overflow-y:auto;">
@@ -638,7 +640,7 @@
        </div>
        <a href="https://github.com/anushil7a/NomNote" target="_blank" style="display:inline-block; background:#1877f2; color:#fff; font-weight:600; font-size:1.2rem; border-radius:24px; padding:12px 32px; margin-bottom:32px; text-decoration:none;">View on GitHub</a>
        <div style="margin-top:24px;">
-         <video controls style="max-width:90%; border-radius:16px; box-shadow:0 2px 12px rgba(0,0,0,0.08);" poster="images/NomTrackerPic.png" muted="false">
+         <video controls style="max-width:90%; border-radius:16px; box-shadow:0 2px 12px rgba(0,0,0,0.08);" poster="images/NomTrackerPic.png">
            <source src="images/NomFood.mp4" type="video/mp4">
            Your browser does not support the video tag.
          </video>
