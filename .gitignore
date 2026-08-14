@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local snapshots of earlier site versions (git history already has them)
+versions/
+
+# Node, if tooling ever gets added
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.env
+.env.local
