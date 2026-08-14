@@ -1,768 +1,613 @@
-<!DOCTYPE html> 
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!--ADSENSE-->
-<!--     <script data-ad-client="ca-pub-1642640364155791" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <meta name="google-site-verification" content="02wm8dMp79FlxOu-QNCovzR5Sdqrn-DnoaZ7fzDLMpg" /> -->
-   <!--- basic page needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Anushil Adhikari</title>
-	<meta name="description" content="Anushil Adhikari is a student at George Mason University.">  
-	<meta name="author" content="Anushil Adhikari">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anushil Adhikari · Software Quality &amp; Test Engineer</title>
 
-    <meta name="keywords" content="anushil adhikari"/>
-    <meta name="subject" content="Anushil Adhikari Portfolio">
-    <meta name="copyright"content="Anushil Adhikari">
-    <meta name="language" content="EN">
-    <meta name="robots" content="index, follow" />
-    <meta name="revised" content="Sunday, September 1st, 2024, 1:04 am" />
-    <meta name="abstract" content="Anushil Adhikari">
-    <meta name="topic" content="Anushil Adhikari's portfolio">
-    <meta name="summary" content="This is Anushil Adhikari's Portfolio Website who is a Developer and a Student.">
-    <meta name="Classification" content="Student">
-    <meta name="author" content="anushil adhikari, anushil7a@gmail.com">
-    <meta name="designer" content="anushil adhikari">
-    <meta name="copyright" content="anushil adhikari">
-    <meta name="reply-to" content="anushil7a@gmail.com">
-    <meta name="owner" content="anushil adhikari">
-    <meta name="url" content="https://github.com/anushil7a">
-    <meta name="identifier-URL" content="https://github.com/anushil7a">
-    <meta name="directory" content="submission">
-    <meta name="category" content="Student | Portfolio">
-    <meta name="coverage" content="Worldwide">
-    <meta name="distribution" content="Global">
-    <meta name="rating" content="General">
-    <meta name="revisit-after" content="7 days">
-    <meta http-equiv="Expires" content="0">
+<meta name="description" content="Anushil Adhikari is a Software Quality and Test Engineer at General Motors in Austin, TX, automating validation for over-the-air vehicle software updates. Previously Fannie Mae, Freddie Mac, and Uber.">
+<meta name="author" content="Anushil Adhikari">
+<link rel="canonical" href="https://anushiladhikari.com/">
 
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://anushiladhikari.com/">
+<meta property="og:title" content="Anushil Adhikari, Software Quality &amp; Test Engineer">
+<meta property="og:description" content="I build backend and cloud systems. And the automation that proves they work. Currently at General Motors. Previously Fannie Mae, Freddie Mac, and Uber.">
+<meta property="og:image" content="https://anushiladhikari.com/images/profile.jpg">
+<meta name="twitter:card" content="summary_large_image">
 
- 	<!-- CSS
-   ================================================== -->
-   <link rel="preload" href="css/base.css" as="style">
-   <link rel="preload" href="css/main.css" as="style">
-   <link rel="stylesheet" href="css/base.css">  
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css" media="print" onload="this.media='all'">     
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230B0D10'/%3E%3Cpath d='M6 20h5l3-9 4 13 3-7h5' fill='none' stroke='%23F2A93B' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 
-   <!-- script
-   ================================================== -->   
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/site.css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<!--     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153937526-1"></script> -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-153937526-1');
-    </script>
-
-   <!-- favicons ================================================== -->
-	<link rel="icon" type="image/png" href="verify.png">
-
-    <style>
-    .intro-content .intro-position span::after,
-    .intro-content .intro-position span::before {
-        display: none !important;
-        content: none !important;
-    }
-    .project-card {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .project-card:hover {
-        transform: scale(1.05);
-        box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-    }
-    </style>
-
+<!-- Tabs engage only when JS can drive them; without it every panel stays visible. -->
+<script>document.documentElement.className += " js";</script>
 </head>
 
-<body id="top">
-
-	<!-- header 
-   ================================================== -->
-   <header>   	
-   	<div class="">
-
-   		<div class="bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
-
-	   		<div class="logo">
-		         <a href="index.html">Anushil Adhikari</a>
-		      </div>		      
-
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>					
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
-					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
-   </header> <!-- /header -->
-
-	<!-- intro section
-   ================================================== -->
-   <section id="intro">   
-
-   	<div class="intro-overlay"></div>	
-
-   	<div class="intro-content">
-   		<div class="row">
-
-   			<div class="col-twelve">
-
-				   <h5>Hello, World!</h5>
-					<h1>I<span style="color: #008080;">'</span>m Anushil Adhikari<span style="color: #008080;">.</span></h1>
-
-                    <p class="intro-position">
-                        <span id="typed-text"></span><span class="typed-cursor">|</span>
-                    </p>
-
-	   			<a class="button stroke smoothscroll" href="#about" title="">About Me</a>
-
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
-
-	   <ul class="intro-social">
-		<li><a href="https://www.linkedin.com/in/anushil-adhikari/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
-		<li><a href="https://github.com/anushil7a" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a></li>
-		<li><a href="https://drive.google.com/file/d/10M2tpMH_hxz3T8ksM12cPZLUkrFtgV6O/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fa fa-resume"></i></a></li>
-	</ul> <!-- /intro-social -->
-	
-   </section> <!-- /intro -->
-
-
-   <!-- about section
-   ================================================== -->
-   <section id="about">
-
-   	<div class="row section-intro">
-   		<div class="col-twelve">
-            
-   			
-   			<h2>Let me introduce myself.</h2>
-
-   			<div class="intro-info">
-
-   				<img src="images/pic3.png" alt="Anushil Adhikari's picture" loading="lazy">
-
-   				<p class="lead">"Dreams as <font color="#008080">bright</font> as stars."</p>
-				   <p class="lead" style="margin-top: -40px; margin-left: 203px;">- Me</p>
-   			</div>   			
-
-   		</div>   		
-   	</div> <!-- /section-intro -->
-
-   	<div class="row about-content" style="max-width: 1200px; margin: 0 auto;">
-
-		<!-- Left Column: Image Holder -->
-		<div class="col-four tab-full">
-			<div class="profile-image" style="position: relative; left: -50px; margin-top: 0px;">
-				<!-- Replace with the path to your image -->
-				<img src="images/profile_pic.JPEG" alt="Anushil Adhikari" style="width:100%; height:420px; object-fit: cover;" loading="lazy">
-			</div>
-		</div>
-		
-	
-		<!-- Middle Column: Profile -->
-		<div class="col-four tab-full">
-			<h3>Profile</h3>
-			<p>Hi I am Anushil Adhikari! I'm a Computer Science major at George Mason University. I'm passionate about AI/ML, full-stack development, cloud development, and cybersecurity, and I'm always looking for opportunities that blend software engineering with real-world impact. In my free time, I love playing soccer, going to the gym, hiking, gaming, hanging out with friends, and traveling.</p>
-	
-			<ul class="info-list">
-				<li>
-					<strong>Email:</strong>
-					<span>anushil7a@gmail.com</span>
-				</li>
-			</ul> <!-- /info-list -->
-		</div>
-	
-		<!-- Right Column: Skills -->
-		<div class="col-four tab-full">
-			<h3>Skills</h3>
-			
-			<ul class="skill-bars">
-				<li>
-					<strong>Python | JAVA | C | C++ | Ruby </strong>
-				</li>
-				<li>
-					<strong>JavaScript | HTML | CSS | REACT </strong>
-				</li>
-				<li>
-					<strong>AWS | Azure | GIT | JIRA</strong>
-				</li>
-				<li>
-					<strong>MongoDB | MySQL | PostgreSQL</strong>
-				</li>
-			</ul> <!-- /skill-bars -->		
-		</div>
-	
-	</div>
-	
-	<div class="row button-section">
-		<div class="col-twelve">
-		   <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-		   <a href="https://drive.google.com/file/d/10M2tpMH_hxz3T8ksM12cPZLUkrFtgV6O/view?usp=sharing" title="Resume" class="button button-primary" target="_blank" rel="noopener noreferrer">Resume</a>
-		</div>   		
-	</div>
-	
-	 
-
-   </section> <!-- /process-->    
-
-
-   <!-- resume Section
-   ================================================== -->
-	<section id="resume" class="grey-section">
-		<div class="row section-intro">
-   		<div class="col-twelve">
-   		</div>   		
-   	</div> <!-- /section-intro--> 
-
-	
-
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Education</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-                   <!-- Master's Degree timeline block moved above Bachelor's -->
-                   <div class="timeline-block" style="margin-bottom: 100px;">
-
-                       <div class="timeline-ico">
-                           <i class="fa fa-briefcase"></i>
-                       </div>
-
-                       <div class="timeline-header" style="margin-bottom: 0px;">
-                           <div class="company-logo">
-                               <img src="images/gmu.png" alt="GMU Logo" style="width:160px; height:auto" loading="lazy">
-                           </div>
-                           <h3>Master's Degree</h3>
-                           <p>Expected Dec 2026</p>
-                       </div>
-
-                       <div class="timeline-content">
-                           <h4><a href="https://volgenau.gmu.edu/" target="_blank" rel="noopener noreferrer">George Mason University</a></h4>
-                           <p>Master of Science in Computer Science.</p>
-                       </div>
-
-                   </div> <!-- /timeline-block -->
-
-                  <div class="timeline-block" style="margin-top: 50px; margin-bottom: 70px;">
-
-                       <div class="timeline-ico">
-                           <i class="fa fa-briefcase"></i>
-                       </div>
-
-                       <div class="timeline-header" style="margin-bottom: 0px;">
-                           <div class="company-logo">
-                               <img src="images/gmu.png" alt="GMU Logo" style="width:160px; height:auto" loading="lazy">
-                           </div>
-                           <h3>Bachelor's Degree</h3>
-                           <p>Jul 2022 - Dec 2025</p>
-                       </div>
-
-                       <div class="timeline-content">
-                           <h4><a href="https://volgenau.gmu.edu/" target="_blank" rel="noopener noreferrer">George Mason University</a></h4>
-                           <p>Senior at George Mason University's Volgenau School of Engineering.       GPA: 3.81</p>
-                       </div>
-
-                   </div> <!-- /timeline-block -->
-
-                
-                
-	   			<div class="timeline-block" style="margin-top: 50px;">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-						<div class="company-logo" style="margin-top: -20px;">
-                               <img src="images/aws.png" alt="AWS cloud practitioner Logo" style="width:160px; height:auto" loading="lazy">
-						</div>
-						<h3 style="text-align: center;margin-left: 60px;">Certificate</h3>
-                           <p>Jan 2024 - Jan 2027</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-						<h4><a href="https://cp.certmetrics.com/amazon/en/public/verify/credential" target="_blank" rel="noopener noreferrer">AWS Cloud Practitioner</a></h4>
-						<p>Credential ID: V527YX1DQEV11ZSP</p>
-					</div>					
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->   			
-
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-
-	   <div class="row resume-timeline">
-
-		<div class="col-twelve resume-header">
-
-			<h2>Professional Experience</h2>
-
-		</div> <!-- /resume-header -->
-
-		<div class="col-twelve">
-
-			<div class="timeline-wrap">
-
-				<div class="timeline-block">
-
-					<div class="timeline-ico">
-						<i class="fa fa-briefcase"></i>
-					</div>
-
-					<div class="timeline-header">
-						<div class="company-logo">
-							<img src="images/channels4_profile.jpg" alt="Fannie Mae Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px" loading="lazy">
-						</div>
-						<h3 style="text-align: center;">Fannie Mae</h3>
-						<p>Jun 2025 - Aug 2025</p>
-					</div>
-
-					<div class="timeline-content">
-						<h4><a href="https://www.fanniemae.com/" target="_blank" rel="noopener noreferrer">Full Stack Developer Intern</a></h4>
-						<ul class="job-description" style="margin-bottom: 100px;">
-							<li>Developed a property lookup dashboard using TypeScript, Angular, Flask, and PostgreSQL, integrating backend API enhancements to deliver real-time loan data. Enabled 50+ underwriters to search, filter, and view records, reducing manual entry by ~25% and improving processing speed by 15%.</li>
-							<li>Designed and automated end-to-end tests using Karate, Postman, and the Spring Boot framework, accelerating release cycles by 40% and enhancing system reliability.</li>
-						</ul>						
-					</div>
-
-				</div> <!-- /timeline-block -->
-
-				<div class="timeline-block">
-
-					<div class="timeline-ico">
-						<i class="fa fa-briefcase"></i>
-					</div>
-
-					<div class="timeline-header">
-						<div class="company-logo">
-							<img src="images/colvin.jpeg" alt="Colvin Run Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px" loading="lazy">
-						</div>
-						<h3>Colvin Run</h3>
-						<p>Sept 2024 - Dec 2024</p>
-					</div>
-
-					<div class="timeline-content">
-						<h4><a href="https://www.colvinrun.com/" target="_blank" rel="noopener noreferrer">AI Engineer Intern</a></h4>
-						<ul class="job-description" style="margin-bottom: 100px;">
-							<li>Engineered an AI-powered platform using TensorFlow and PyTorch to enhance microelectronics supply chain security, reducing counterfeit component identification time by 15% through continuous model testing, optimization, and real-time monitoring.</li>
-						</ul>						
-					</div>
-
-				</div> <!-- /timeline-block -->
-
-				<div class="timeline-block">
-
-					<div class="timeline-ico">
-						<i class="fa fa-briefcase"></i>
-					</div>
-
-					<div class="timeline-header">
-						<div class="company-logo">
-							<img src="images/f1.png" alt="Freddie Mac Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px" loading="lazy">
-						</div>
-						<h3 style="text-align: center;">Freddie Mac</h3>
-						<p>May 2024 - Aug 2024</p>
-					</div>
-
-					<div class="timeline-content">
-						<h4><a href="https://www.freddiemac.com/" target="_blank" rel="noopener noreferrer">Software Engineer Intern</a></h4>
-						<ul class="job-description" style="margin-bottom: 100px;">
-							<li>Improved app performance by 30% through optimized SQL queries, RESTful API integration, indexing, and caching.</li>
-							<li>Built Python and SQL-based ETL pipelines to automate data processing and cut analysis time by 40%.</li>
-							<li>Reduced database load by 50% through efficient data filtering and on-demand data display, lowering server costs and boosting stability.</li>
-						</ul>
-					</div>
-					
-
-				</div> <!-- /timeline-block -->
-			 
-			 
-				<div class="timeline-block">
-
-					<div class="timeline-ico">
-						<i class="fa fa-briefcase"></i>
-					</div>
-
-					<div class="timeline-header">
-						<div class="company-logo">
-							<img src="images/sol.jpeg" alt="Solvitur Systems Logo" style="width:160px; height:auto; margin-left:50px; margin-top:50px" loading="lazy">
-						</div>
-						<h3>Solvitur Systems</h3>
-						<p>Jan 2024 - May 2024</p>
-					</div>
-
-					<div class="timeline-content">
-						<h4><a href="https://www.solvitursystems.com/" target="_blank" rel="noopener noreferrer">Cyber Security Intern</a></h4>
-						<ul class="job-description" style="margin-bottom: 100px;">
-							<li>Conducted rigorous end-to-end software testing and cross-disciplinary collaboration, utilizing agile QA, static code analysis, penetration testing, CI/CD principles, real-time debugging, and user feedback to ensure software reliability, security, and optimization.</li>
-						</ul>						
-					</div>
-
-				</div> <!-- /timeline-block -->
-
-				<div class="timeline-block">
-
-					<div class="timeline-ico">
-						<i class="fa fa-briefcase"></i>
-					</div>
-
-					<div class="timeline-header">
-						<div class="company-logo">
-							<img src="images/Uber.webp" alt="Uber Logo" style="width:300px; height:auto; margin-left:30px; margin-top:60px" loading="lazy">
-						</div>
-						<h3 style="text-align: center;">Uber</h3>
-						<p>Jan 2023 - Aug 2023</p>
-					</div>
-
-					<div class="timeline-content">
-						<h4><a href="https://www.uber.com/us/en/careers/" target="_blank" rel="noopener noreferrer">Fellowship</a></h4>
-						<ul class="job-description">
-							<li>Constructed predictive pricing models using SQL and internal algorithms, enabling a 15% increase in accurate price forecasting and a 10% improvement in profit margins for key product lines.</li>
-						</ul>						
-					</div>
-
-			</div> <!-- /timeline-wrap -->   			
-
-		</div> <!-- /col-twelve -->
-		
-	</div> <!-- /resume-timeline -->
-
-	</section> <!-- /features -->
-	<!-- Add a professional summary here -->
-
-
-	<!-- Portfolio Section
-   ================================================== -->
-	<section id="portfolio">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h2 style="color: #008080;">Projects</h2>
-
-   		</div>   		
-   	</div>
-
-   	<div class="row portfolio-content">
-   	<div class="col-twelve" style="display: flex; gap: 32px; justify-content: center; flex-wrap: wrap;">
-
-   		<div class="project-card" onclick="openModal('modal-outfit')" style="cursor:pointer;background: url('images/outfit.png') center/cover no-repeat; border-radius: 24px; box-shadow: 0 4px 24px rgba(0,0,0,0.10); width: 320px; height: 480px; position: relative; display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden;">
-   			<div style="background: linear-gradient(0deg, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.1) 100%); padding: 32px 24px 24px 24px;">
-   				<h3 style="color: #fff; font-size: 2.2rem; font-weight: bold; margin: 0 0 8px 0;">OutfitGenie</h3>
-   				<div style="color: #fff; font-size: 1.1rem; font-weight: 500; opacity: 0.85; margin-bottom: 8px;">Flask, SQLAlchemy, OpenAI Vision, Weather API</div>
-   				<div style="position: absolute; bottom: 18px; right: 18px; background: rgba(0,0,0,0.5); border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;"><span style="color: #fff; font-size: 2rem; font-weight: bold;">+</span></div>
-		     				</div> 	                      	
-	                     </div>                    
-
-   		<div class="project-card" onclick="openModal('modal-ml')" style="cursor:pointer;background: url('images/risk.png') center/cover no-repeat; border-radius: 24px; box-shadow: 0 4px 24px rgba(0,0,0,0.10); width: 320px; height: 480px; position: relative; display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden;">
-   			<div style="background: linear-gradient(0deg, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.1) 100%); padding: 32px 24px 24px 24px;">
-   				<h3 style="color: #fff; font-size: 2.2rem; font-weight: bold; margin: 0 0 8px 0;">FinTech Risk Analyzer</h3>
-   				<div style="color: #fff; font-size: 1.1rem; font-weight: 500; opacity: 0.85; margin-bottom: 8px;">Machine Learning, Data Engineering, Fraud Analytics</div>
-   				<div style="position: absolute; bottom: 18px; right: 18px; background: rgba(0,0,0,0.5); border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;"><span style="color: #fff; font-size: 2rem; font-weight: bold;">+</span></div>
-		     				</div> 	                      	
-	                     </div>                    
-
-   		<div class="project-card" onclick="openModal('modal-ray')" style="cursor:pointer;background: url('images/NomTracker.png') center/cover no-repeat; border-radius: 24px; box-shadow: 0 4px 24px rgba(0,0,0,0.10); width: 320px; height: 480px; position: relative; display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden;">
-   			<div style="background: linear-gradient(0deg, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.1) 100%); padding: 32px 24px 24px 24px;">
-   				<h3 style="color: #fff; font-size: 2.2rem; font-weight: bold; margin: 0 0 8px 0;">NomNote</h3>
-   				<div style="color: #fff; font-size: 1.1rem; font-weight: 500; opacity: 0.85; margin-bottom: 8px;">React, Node.js, MySQL, Google Maps</div>
-   				<div style="position: absolute; bottom: 18px; right: 18px; background: rgba(0,0,0,0.5); border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;"><span style="color: #fff; font-size: 2rem; font-weight: bold;">+</span></div>
-		     				</div> 	                      	
-	                     </div>                    
-                                    
-                            </div>	                      	
-	                     </div>                    
-		
-	</section> <!-- /portfolio --> 
-
-	
-   <!-- contact
-   ================================================== -->
-	<section id="contact">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Contact</h5>
-   			<h2>I'd Love To Hear From You.</h2>
-
-   			<p class="lead">Feel free to Contact Me:</p>
-
-   		</div> 
-   	</div> <!-- /section-intro -->
-
-   	<div class="row contact-form">
-
-   		<div class="col-twelve">
-            
-<!-- form -->
-<form name="form" id="contactForm" method="POST" action="https://formspree.io/f/mpwanawg">
-      			<fieldset>
-                    <div class="form-field">
- 				<input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                    </div>
-                    <div class="form-field">
-				<input name="_replyto" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	                </div>
-                    <div class="form-field">
-				<input name="_subject" type="text" id="contactSubject" placeholder="Subject" value="">
-	                </div>                       
-                    <div class="form-field">
-	                 	<textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	                </div>                      
-                    <div class="form-field">
-                        <button class="submitform" name="submit">Submit</button>
-                        <div id="submit-loader">
-			    <div class="text-loader">Sending...</div>                             
-       				  <div class="s-loader">
-					<div class="bounce1"></div>
-					<div class="bounce2"></div>
-					<div class="bounce3"></div>
-				    </div>
-			</div>
-                    </div>
-
-	</fieldset>
-</form>
-
-            <!-- contact-warning -->
-<div id="message-warning">            	
-            </div> 
-            <!-- contact-success -->
-<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div> 
-
-         </div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /contact-form -->
-
-   	<div class="row contact-info">
-
-   		<div class="col-four tab-full">
-
-   			<div class="icon">
-   				<i class="icon-pin"></i>
-   			</div>
-
-   			<h5>Where to find me</h5>
-
-   			<p>
-            Herndon, VA<br>
-            20170, USA
-            </p>
-
-   		</div>
-
-   		<div class="col-four tab-full collapse">
-
-   			<div class="icon">
-   				<i class="icon-mail"></i>
-   			</div>
-
-   			<h5>Email Me At</h5>
-
-   			<p>anushil7a@gmail.com<br>		     
-			</p>
-
-   		</div>
-   		
-   	</div> <!-- /contact-info -->
-		
-	</section> <!-- /contact -->
-
-
-   <!-- footer ================================================== -->
-
-   <footer>
-     	<div class="row">
-
-     		<div class="col-six tab-full pull-right social">
-
-                <ul class="footer-social">
-					<li><a href="https://www.linkedin.com/in/anushil-adhikari/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="https://github.com/anushil7a" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a></li>
-					<li><a href="https://drive.google.com/file/d/10M2tpMH_hxz3T8ksM12cPZLUkrFtgV6O/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fa fa-resume"></i></a></li>
-                </ul> 
-	      		
-	      </div>
-
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		    </div>
-
-      	</div> <!-- /row -->     	
-   </footer>  
-   
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
-
-   <!-- Java Script
-   ================================================== --> 
-   <script src="js/jquery-2.1.3.min.js" defer></script>
-   <script src="js/plugins.js" defer></script>
-   <script src="js/main.js" defer></script>
-
-   <!-- Modals -->
-   <div id="modal-outfit" class="custom-modal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); align-items:center; justify-content:center; overflow-y:auto;">
-     <div class="modal-content" style="background:#fff; border-radius:24px; max-width:800px; width:90vw; margin:40px auto; padding:40px 32px 32px 32px; box-shadow:0 8px 32px rgba(0,0,0,0.15); position:relative; text-align:center;">
-       <button onclick="closeModal('modal-outfit')" style="position:absolute; top:24px; right:24px; background:none; border:none; font-size:2rem; cursor:pointer;">&times;</button>
-       <h2 style="color:#1877f2; font-size:2.6rem; font-weight:800; margin-bottom:16px;">OutfitGenie</h2>
-       <p style="font-size:1.3rem; margin-bottom:24px;">The future of fashion is here: Our app uses cutting-edge AI to scan your outfit photos, breaking down each item with precision. Whether you're planning for a casual day out or a formal event, our smart recommendations adapt to your style and the weather. Chat with our AI stylist for instant fashion tips and elevate your wardrobe game. Download now and discover a smarter way to dress!</p>
-       <div style="margin-bottom:24px;">
-         <span class="tag">Flask</span> <span class="tag">SQLAlchemy</span> <span class="tag">OpenAI Vision</span> <span class="tag">Weather API</span>
-       </div>
-       <a href="https://github.com/anushil7a/OutfitGenie" target="_blank" style="display:inline-block; background:#008080 !important; color:#fff; font-weight:600; font-size:1.2rem; border-radius:24px; padding:12px 32px; margin-bottom:32px; text-decoration:none;">View on GitHub</a>
-       <div style="margin-top:24px;">
-         <video controls style="max-width:90%; border-radius:16px; box-shadow:0 2px 12px rgba(0,0,0,0.08);" poster="images/portfolio/outfitgenie.png">
-           <source src="images/outfitVid.mp4" type="video/mp4">
-           Your browser does not support the video tag.
-         </video>
-       </div>
-     </div>
-   </div>
-
-   <div id="modal-ray" class="custom-modal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); align-items:center; justify-content:center; overflow-y:auto;">
-     <div class="modal-content" style="background:#fff; border-radius:24px; max-width:800px; width:90vw; margin:40px auto; padding:40px 32px 32px 32px; box-shadow:0 8px 32px rgba(0,0,0,0.15); position:relative; text-align:center;">
-       <button onclick="closeModal('modal-ray')" style="position:absolute; top:24px; right:24px; background:none; border:none; font-size:2rem; cursor:pointer;">&times;</button>
-       <h2 style="color:#1877f2; font-size:2.6rem; font-weight:800; margin-bottom:16px;">NomNote</h2>
-       <p style="font-size:1.3rem; margin-bottom:24px;">Looking for an easy way to remember what you ordered at restaurants? Our food journal website lets you track meals, rate restaurants, add personal notes, and save food photos—all in one place. Quickly recall past dishes and decide where to eat next with confidence.</p>
-       <div style="margin-bottom:24px;">
-         <span class="tag">React</span> <span class="tag">Node.js</span> <span class="tag">MySQL</span> <span class="tag">Google Maps</span>
-       </div>
-       <a href="https://github.com/anushil7a/NomNote" target="_blank" style="display:inline-block; background:#1877f2; color:#fff; font-weight:600; font-size:1.2rem; border-radius:24px; padding:12px 32px; margin-bottom:32px; text-decoration:none;">View on GitHub</a>
-       <div style="margin-top:24px;">
-         <video controls style="max-width:90%; border-radius:16px; box-shadow:0 2px 12px rgba(0,0,0,0.08);" poster="images/NomTrackerPic.png">
-           <source src="images/NomFood.mp4" type="video/mp4">
-           Your browser does not support the video tag.
-         </video>
-       </div>
-     </div>
-   </div>
-
-   <div id="modal-ml" class="custom-modal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); align-items:center; justify-content:center; overflow-y:auto;">
-     <div class="modal-content" style="background:#fff; border-radius:24px; max-width:800px; width:90vw; margin:40px auto; padding:40px 32px 32px 32px; box-shadow:0 8px 32px rgba(0,0,0,0.15); position:relative; text-align:center;">
-       <button onclick="closeModal('modal-ml')" style="position:absolute; top:24px; right:24px; background:none; border:none; font-size:2rem; cursor:pointer;">&times;</button>
-       <h2 style="color:#1877f2; font-size:2.6rem; font-weight:800; margin-bottom:16px;">FinTech Risk Analyzer</h2>
-       <p style="font-size:1.3rem; margin-bottom:24px;">Our fraud detection platform brings intelligence to transaction security. By blending machine learning with rule-based logic, it uncovers suspicious patterns across merchants, devices, and locations in real time. An interactive dashboard and detailed risk explanations give teams the clarity they need to act fast and stay ahead of threats.</p>
-       <div style="margin-bottom:24px;">
-         <span class="tag">Machine Learning</span> <span class="tag">Data Engineering</span> <span class="tag">Fraud Analytics</span>
-       </div>
-       <a href="https://github.com/anushil7a/FinTech-Risk-Analyzer" target="_blank" style="display:inline-block; background:#1877f2; color:#fff; font-weight:600; font-size:1.2rem; border-radius:24px; padding:12px 32px; margin-bottom:32px; text-decoration:none;">View on GitHub</a>
-       <div style="margin-top:24px;">
-         <video controls preload="metadata" style="max-width:90%; border-radius:16px; box-shadow:0 2px 12px rgba(0,0,0,0.08);" poster="images/risk.png">
-           <source src="images/Risk.mp4" type="video/mp4">
-           Your browser does not support the video tag.
-         </video>
-       </div>
-     </div>
-   </div>
-
-   <!-- Modal Tag Styles -->
-   <style>
-   .tag {
-     display: inline-block;
-     background: #e6f6f6;
-     color: #008080;
-     font-size: 1.1rem;
-     font-weight: 500;
-     border-radius: 18px;
-     padding: 6px 18px;
-     margin: 0 6px 8px 0;
-     transition: background 0.2s, color 0.2s;
-   }
-   .tag:hover {
-     background: #008080;
-     color: #fff;
-   }
-   .custom-modal { display: none; align-items: center; justify-content: center; overflow-y: auto; background: rgba(0,128,128,0.10) !important; }
-   .custom-modal.active { display: flex !important; }
-   .custom-modal .modal-content { max-height: 90vh; overflow-y: auto; background: #fff; border: 2px solid #008080; }
-   .custom-modal .modal-content h2 { color: #008080 !important; }
-   .custom-modal .modal-content a { background: #008080 !important; }
-   .custom-modal .modal-content a:hover { background: #005f5f !important; }
-   </style>
-
-   <script>
-   function openModal(id) {
-     document.getElementById(id).classList.add('active');
-   }
-   function closeModal(id) {
-     document.getElementById(id).classList.remove('active');
-   }
-   // Close modal when clicking outside the modal-content
-   ['modal-outfit','modal-ray','modal-ml'].forEach(function(id) {
-     var modal = document.getElementById(id);
-     if (modal) {
-       modal.addEventListener('mousedown', function(e) {
-         if (e.target === modal) closeModal(id);
-       });
-     }
-   });
-   </script>
-
-   <script>
-   const roles = [
-     "Software Engineer",
-     "Student",
-     "Cloud Specialist",
-     "Full Stack Developer",
-     "Cybersecurity Enthusiast"
-   ];
-   let roleIndex = 0, charIndex = 0, typing = true;
-   const typedText = document.getElementById('typed-text');
-   const cursor = document.querySelector('.typed-cursor');
-   function typeRole() {
-     if (typing) {
-       if (charIndex < roles[roleIndex].length) {
-         typedText.textContent += roles[roleIndex][charIndex++];
-         setTimeout(typeRole, 80);
-       } else {
-         typing = false;
-         setTimeout(typeRole, 1200);
-       }
-     } else {
-       if (charIndex > 0) {
-         typedText.textContent = roles[roleIndex].substring(0, --charIndex);
-         setTimeout(typeRole, 40);
-       } else {
-         typing = true;
-         roleIndex = (roleIndex + 1) % roles.length;
-         setTimeout(typeRole, 400);
-       }
-     }
-   }
-   typeRole();
-   </script>
-
+<body>
+
+<!-- Warm light that follows the pointer. -->
+<div class="glow" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     Top bar
+     ============================================================ -->
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="#now">
+      <svg class="brand__mark" viewBox="0 0 32 24" aria-hidden="true" focusable="false">
+        <path d="M2 16h5l3-9 4 15 3-9h13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="brand__name">Anushil Adhikari</span>
+    </a>
+
+    <div class="topbar__actions">
+      <a class="btn btn--ghost" href="mailto:anushil7a@gmail.com">Email</a>
+      <a class="btn btn--solid" href="https://drive.google.com/file/d/10M2tpMH_hxz3T8ksM12cPZLUkrFtgV6O/view?usp=sharing" target="_blank" rel="noopener noreferrer">Résumé</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================
+     Tab bar
+     ============================================================ -->
+<nav class="tabs" aria-label="Sections">
+  <div class="tabs__inner" id="tablist">
+    <a class="tab" href="#now"       id="tab-now"><span class="tab__idx">01</span><span class="tab__name">Now</span></a>
+    <a class="tab" href="#work"      id="tab-work"><span class="tab__idx">02</span><span class="tab__name">Work</span></a>
+    <a class="tab" href="#projects"  id="tab-projects"><span class="tab__idx">03</span><span class="tab__name">Projects</span></a>
+    <a class="tab" href="#stack"     id="tab-stack"><span class="tab__idx">04</span><span class="tab__name">Stack</span></a>
+    <a class="tab" href="#education" id="tab-education"><span class="tab__idx">05</span><span class="tab__name">Education</span></a>
+    <a class="tab" href="#contact"   id="tab-contact"><span class="tab__idx">06</span><span class="tab__name">Contact</span></a>
+    <span class="tabs__head" id="tabsHead" aria-hidden="true"></span>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ============================================================
+     01 · Now
+     ============================================================ -->
+<section class="panel" id="now" aria-labelledby="tab-now">
+  <div class="shell">
+
+    <p class="eyebrow"><span class="eyebrow__idx">01</span> Now &middot; Austin, TX</p>
+
+    <div class="now">
+      <div class="now__main">
+        <h1 class="now__title">
+          I build backend and cloud systems. And the automation that <em>proves</em> they work.
+        </h1>
+
+        <p class="now__lede">
+          Software Quality &amp; Test Engineer at General Motors, automating validation for
+          over-the-air vehicle software updates. Previously Fannie Mae, Freddie Mac, and Uber.
+        </p>
+
+        <dl class="status">
+          <div class="status__row">
+            <dt>Currently</dt>
+            <dd>Software Quality &amp; Test Engineer, General Motors <span class="status__sep">·</span> Austin, TX</dd>
+          </div>
+          <div class="status__row">
+            <dt>Open to</dt>
+            <dd class="status__tags">
+              <span>Solutions Engineering</span>
+              <span>Site Reliability</span>
+              <span>Cloud Support</span>
+              <span>Software Engineering</span>
+              <span>Full Stack</span>
+            </dd>
+          </div>
+          <div class="status__row">
+            <dt>Certified</dt>
+            <dd>AWS Solutions Architect <span class="status__sep">·</span> AWS Cloud Practitioner</dd>
+          </div>
+        </dl>
+      </div>
+
+      <aside class="now__aside">
+        <figure class="portrait">
+          <img src="images/profile.jpg" width="675" height="900" alt="Anushil Adhikari" decoding="async">
+          <figcaption>Anushil Adhikari <span>Austin, TX</span></figcaption>
+        </figure>
+        <div class="bio">
+          <p class="bio__label">Off the clock</p>
+          <p>
+            I am usually somewhere with bad cell service, hiking remote mountain trails and
+            collecting stamps in a passport that is running out of pages. When I am home I teach
+            kids to code and work through math with them, which is still the fastest way I have
+            found to learn whether I actually understand something.
+          </p>
+        </div>
+      </aside>
+    </div>
+
+    <div class="marks">
+      <p class="marks__label">Shipped for</p>
+      <ul class="marks__list">
+        <li>General Motors</li>
+        <li>Fannie Mae</li>
+        <li>Freddie Mac</li>
+        <li>Uber</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     02 · Work
+     ============================================================ -->
+<section class="panel" id="work" aria-labelledby="tab-work">
+  <div class="shell">
+
+    <header class="panel__head">
+      <p class="eyebrow"><span class="eyebrow__idx">02</span> Work</p>
+      <h2 class="panel__title">Seven roles, reverse chronological.</h2>
+    </header>
+
+    <article class="role role--lead">
+      <div class="role__top">
+        <div>
+          <h3 class="role__org"><span class="role__pulse" aria-hidden="true"></span>General Motors</h3>
+          <p class="role__title">Software Quality &amp; Test Engineer</p>
+        </div>
+        <div class="role__when">
+          <p class="role__date">Mar 2026 – Present</p>
+          <p class="role__place">Austin, TX</p>
+        </div>
+      </div>
+
+      <ul class="role__points">
+        <li>Lead test automation for GM's over-the-air update pipeline. Defect detection up <strong>~30%</strong>.</li>
+        <li>Jenkins CI/CD pipelines wired to Git. Regression cycles down <strong>~35%</strong>.</li>
+        <li>Nightly runs trigger on every repo change, replacing manual execution.</li>
+        <li>Built a framework that proves coverage from parsed CAN, OTA, IPC, and VCU logs.</li>
+      </ul>
+
+      <ul class="chips chips--sm">
+        <li>Python</li><li>Robot Framework</li><li>Jenkins</li><li>CI/CD</li><li>Git</li>
+      </ul>
+    </article>
+
+    <div class="role-grid">
+
+      <article class="role">
+        <p class="role__date">Oct 2025 – Dec 2025</p>
+        <h3 class="role__org">BizArch Solutions</h3>
+        <p class="role__title">AI Engineer Intern</p>
+        <ul class="role__points">
+          <li>Reusable RAG pipeline with FAISS. Caching cut redundant LLM calls <strong>60%</strong>.</li>
+          <li>Backend pipeline handling <strong>100+ support cases</strong> per cycle from S3.</li>
+        </ul>
+        <ul class="chips chips--sm"><li>Python</li><li>FAISS</li><li>RAG</li><li>AWS S3</li></ul>
+      </article>
+
+      <article class="role">
+        <p class="role__date">Jun 2025 – Aug 2025</p>
+        <h3 class="role__org">Fannie Mae</h3>
+        <p class="role__title">Full Stack Engineer Intern</p>
+        <ul class="role__points">
+          <li>Angular and TypeScript analytics dashboard. Turnaround down <strong>30%</strong>.</li>
+          <li>Karate, JUnit, and Spring Boot suites on Gradle CI. Regressions down <strong>~40%</strong>.</li>
+        </ul>
+        <ul class="chips chips--sm"><li>Angular</li><li>TypeScript</li><li>PostgreSQL</li><li>Spring Boot</li></ul>
+      </article>
+
+      <article class="role">
+        <p class="role__date">Sep 2024 – Dec 2024</p>
+        <h3 class="role__org">Colvin Run</h3>
+        <p class="role__title">AI Engineer Intern</p>
+        <ul class="role__points">
+          <li>TensorFlow and PyTorch platform for supply chain security. Counterfeit identification <strong>15%</strong> faster.</li>
+        </ul>
+        <ul class="chips chips--sm"><li>TensorFlow</li><li>PyTorch</li><li>Python</li></ul>
+      </article>
+
+      <article class="role">
+        <p class="role__date">May 2024 – Aug 2024</p>
+        <h3 class="role__org">Freddie Mac</h3>
+        <p class="role__title">Software Engineer Intern</p>
+        <ul class="role__points">
+          <li>Backend throughput up <strong>30%</strong> via SQL, REST, indexing, and caching.</li>
+          <li>Database load down <strong>50%</strong>, stabilizing Spark reporting pipelines.</li>
+        </ul>
+        <ul class="chips chips--sm"><li>Python</li><li>SQL</li><li>REST</li><li>Spark</li></ul>
+      </article>
+
+      <article class="role">
+        <p class="role__date">Jan 2024 – May 2024</p>
+        <h3 class="role__org">Solvitur Systems</h3>
+        <p class="role__title">Cyber Security Intern</p>
+        <ul class="role__points">
+          <li>End to end testing, agile QA, static code analysis, and penetration testing.</li>
+        </ul>
+        <ul class="chips chips--sm"><li>Static analysis</li><li>Pen testing</li><li>Agile QA</li></ul>
+      </article>
+
+      <article class="role">
+        <p class="role__date">Jan 2023 – Aug 2023</p>
+        <h3 class="role__org">Uber</h3>
+        <p class="role__title">Fellowship</p>
+        <ul class="role__points">
+          <li>SQL predictive pricing models. Forecast accuracy up <strong>15%</strong>, margins up <strong>10%</strong>.</li>
+        </ul>
+        <ul class="chips chips--sm"><li>SQL</li><li>Data pipelines</li><li>Forecasting</li></ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     03 · Projects (drag or swipe, no stepper)
+     ============================================================ -->
+<section class="panel" id="projects" aria-labelledby="tab-projects">
+  <div class="shell">
+
+    <header class="panel__head">
+      <p class="eyebrow"><span class="eyebrow__idx">03</span> Projects</p>
+      <h2 class="panel__title">Four things I built end to end.</h2>
+    </header>
+
+    <div class="rail__jump" id="railJump">
+      <button class="jump" type="button" data-go="0">OutfitGenie</button>
+      <button class="jump" type="button" data-go="1">FinTech Risk Analyzer</button>
+      <button class="jump" type="button" data-go="2">getSense AI</button>
+      <button class="jump" type="button" data-go="3">NomNote</button>
+    </div>
+
+    <div class="rail" id="rail" tabindex="0" aria-label="Projects. Drag, swipe, or use the arrow keys.">
+
+      <!-- OutfitGenie -->
+      <article class="slide">
+        <figure class="slide__media">
+          <video controls preload="none" poster="images/outfit.png" playsinline aria-label="OutfitGenie demo video">
+            <source src="images/outfitVid.mp4" type="video/mp4">
+            Your browser doesn't support embedded video. <a href="images/outfitVid.mp4">Download the demo</a>.
+          </video>
+        </figure>
+
+        <div class="slide__text">
+          <p class="slide__kind">Full stack &middot; Applied AI</p>
+          <h3 class="slide__name">OutfitGenie</h3>
+          <p class="slide__summary">Turns your actual closet into outfit recommendations.</p>
+
+          <dl class="pao">
+            <div><dt>Problem</dt><dd>People own more clothes than they can track, so "what do I wear" gets decided on incomplete information.</dd></div>
+            <div><dt>Approach</dt><dd>Catalog the wardrobe from photos, describe items with OpenAI Vision, pair a recommendation engine with a stylist chat.</dd></div>
+            <div><dt>Outcome</dt><dd><strong>350+ users</strong>, <strong>5,000+ generations</strong>, <strong>~85% positive</strong>. Latency down <strong>~25%</strong> under load.</dd></div>
+          </dl>
+
+          <ul class="chips"><li>React</li><li>Flask</li><li>PostgreSQL</li><li>OpenAI Vision</li></ul>
+          <p class="slide__links">
+            <a class="link-arrow" href="https://github.com/anushil7a/OutfitGenie" target="_blank" rel="noopener noreferrer">View repository<span aria-hidden="true">↗</span></a>
+          </p>
+        </div>
+      </article>
+
+      <!-- FinTech Risk Analyzer -->
+      <article class="slide">
+        <figure class="slide__media">
+          <video controls preload="none" poster="images/risk.png" playsinline aria-label="FinTech Risk Analyzer demo video">
+            <source src="images/Risk.mp4" type="video/mp4">
+            Your browser doesn't support embedded video. <a href="images/Risk.mp4">Download the demo</a>.
+          </video>
+        </figure>
+
+        <div class="slide__text">
+          <p class="slide__kind">Machine learning &middot; Fraud</p>
+          <h3 class="slide__name">FinTech Risk Analyzer</h3>
+          <p class="slide__summary">Fraud detection that explains itself.</p>
+
+          <dl class="pao">
+            <div><dt>Problem</dt><dd>Fraud signal lives between transactions, across merchant, device, and geography, not in any single row.</dd></div>
+            <div><dt>Approach</dt><dd>ML scoring plus a rule layer, with a plain language explanation attached to every flag.</dd></div>
+            <div><dt>Outcome</dt><dd>A dashboard that ranks transactions by risk and shows its reasoning, so it stays auditable.</dd></div>
+          </dl>
+
+          <ul class="chips"><li>Python</li><li>Machine learning</li><li>Rule engine</li><li>Dashboard</li></ul>
+          <p class="slide__links">
+            <a class="link-arrow" href="https://github.com/anushil7a/FinTech-Risk-Analyzer" target="_blank" rel="noopener noreferrer">View repository<span aria-hidden="true">↗</span></a>
+          </p>
+        </div>
+      </article>
+
+      <!-- getSense AI -->
+      <article class="slide">
+        <figure class="slide__media slide__media--panel">
+          <ul class="readout">
+            <li><span class="readout__key">Users</span><span class="readout__val" data-count="150" data-suffix="+">150+</span></li>
+            <li><span class="readout__key">Categorization accuracy</span><span class="readout__val" data-count="90" data-prefix="~" data-suffix="%">~90%</span></li>
+            <li><span class="readout__key">Manual entry</span><span class="readout__val" data-count="50" data-prefix="−" data-suffix="%">−50%</span></li>
+            <li><span class="readout__key">Retrieval time</span><span class="readout__val" data-count="35" data-prefix="−" data-suffix="%">−35%</span></li>
+          </ul>
+        </figure>
+
+        <div class="slide__text">
+          <p class="slide__kind">Android &middot; On-device ML</p>
+          <h3 class="slide__name">getSense AI</h3>
+          <p class="slide__summary">A budgeting app that stops asking you to type in receipts.</p>
+
+          <dl class="pao">
+            <div><dt>Problem</dt><dd>Budgeting apps fail for a behavioral reason: manual entry is tedious enough that people quietly stop.</dd></div>
+            <div><dt>Approach</dt><dd>Reads receipts with OCR, categorizes with an ML classifier, and searches your history in plain language.</dd></div>
+            <div><dt>Outcome</dt><dd><strong>150+ users</strong> at <strong>~90% accuracy</strong>, halving manual entry.</dd></div>
+          </dl>
+
+          <ul class="chips"><li>Java</li><li>Room DB</li><li>OCR</li><li>ML classification</li></ul>
+        </div>
+      </article>
+
+      <!-- NomNote -->
+      <article class="slide">
+        <figure class="slide__media">
+          <video controls preload="none" poster="images/NomTrackerPic.png" playsinline aria-label="NomNote demo video">
+            <source src="images/NomFood.mp4" type="video/mp4">
+            Your browser doesn't support embedded video. <a href="images/NomFood.mp4">Download the demo</a>.
+          </video>
+        </figure>
+
+        <div class="slide__text">
+          <p class="slide__kind">Full stack &middot; Maps</p>
+          <h3 class="slide__name">NomNote</h3>
+          <p class="slide__summary">A food journal for what was worth going back for.</p>
+
+          <dl class="pao">
+            <div><dt>Problem</dt><dd>Meal notes scatter across camera rolls and group chats.</dd></div>
+            <div><dt>Approach</dt><dd>One record per meal, with rating, notes, and photos tied to real places through Google Maps.</dd></div>
+            <div><dt>Outcome</dt><dd>A searchable, location aware history of your own taste.</dd></div>
+          </dl>
+
+          <ul class="chips"><li>React</li><li>Node.js</li><li>MySQL</li><li>Google Maps</li></ul>
+          <p class="slide__links">
+            <a class="link-arrow" href="https://github.com/anushil7a/NomNote" target="_blank" rel="noopener noreferrer">View repository<span aria-hidden="true">↗</span></a>
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="rail__progress" aria-hidden="true"><span id="railProgress"></span></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     04 · Stack
+     ============================================================ -->
+<section class="panel" id="stack" aria-labelledby="tab-stack">
+  <div class="shell">
+
+    <header class="panel__head">
+      <p class="eyebrow"><span class="eyebrow__idx">04</span> Stack</p>
+      <h2 class="panel__title">What I work in.</h2>
+    </header>
+
+    <p class="probe" id="stackProbe" aria-hidden="true">
+      <span class="probe__idle">Point at anything below to see where I have used it.</span>
+      <span class="probe__out"><span class="probe__name"></span><span class="probe__where"></span></span>
+    </p>
+
+    <div class="stack">
+      <section class="stack__group">
+        <h3 class="rule-label">Languages</h3>
+        <ul class="chips chips--lg">
+          <li data-where="General Motors, Freddie Mac, BizArch, Colvin Run">Python</li>
+          <li data-where="getSense AI">Java</li>
+          <li data-where="OutfitGenie, NomNote">JavaScript</li>
+          <li data-where="Fannie Mae">TypeScript</li>
+          <li>C / C++</li>
+          <li>Go</li>
+          <li data-where="Every project on this site">HTML / CSS</li>
+        </ul>
+      </section>
+
+      <section class="stack__group">
+        <h3 class="rule-label">Frameworks &amp; Tools</h3>
+        <ul class="chips chips--lg">
+          <li data-where="OutfitGenie, NomNote">React</li>
+          <li data-where="NomNote">Node.js</li>
+          <li data-where="Fannie Mae">Angular</li>
+          <li>Express</li>
+          <li>Next.js</li>
+          <li data-where="Fannie Mae">Spring Boot</li>
+          <li>Django</li>
+          <li data-where="OutfitGenie">Flask</li>
+        </ul>
+      </section>
+
+      <section class="stack__group">
+        <h3 class="rule-label">Cloud &amp; DevOps</h3>
+        <ul class="chips chips--lg">
+          <li data-where="BizArch, plus two AWS certifications">AWS</li>
+          <li>Azure</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+          <li data-where="General Motors">Jenkins</li>
+          <li data-where="General Motors, Fannie Mae">CI/CD</li>
+          <li data-where="General Motors">Git</li>
+          <li>Unix</li>
+        </ul>
+      </section>
+
+      <section class="stack__group">
+        <h3 class="rule-label">Data</h3>
+        <ul class="chips chips--lg">
+          <li data-where="Freddie Mac, Uber">SQL</li>
+          <li>NoSQL</li>
+          <li data-where="OutfitGenie, Fannie Mae">PostgreSQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </section>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     05 · Education
+     ============================================================ -->
+<section class="panel" id="education" aria-labelledby="tab-education">
+  <div class="shell">
+
+    <header class="panel__head">
+      <p class="eyebrow"><span class="eyebrow__idx">05</span> Education</p>
+      <h2 class="panel__title">Degree and certifications.</h2>
+    </header>
+
+    <div class="creds">
+
+      <article class="cred is-open">
+        <button class="cred__toggle" type="button" aria-expanded="true" aria-controls="cred-bs">
+          <span class="cred__date">Jul 2022 – Dec 2025</span>
+          <span class="cred__name">Bachelor of Science, Computer Science</span>
+          <span class="cred__org">George Mason University</span>
+          <span class="cred__sign" aria-hidden="true"></span>
+        </button>
+        <div class="cred__detail" id="cred-bs">
+          <ul class="facts">
+            <li><span>Location</span><b>Fairfax, Virginia</b></li>
+            <li><span>Graduated</span><b>December 2025</b></li>
+            <li><span>GPA</span><b>3.8</b></li>
+          </ul>
+          <p class="cred__link">
+            <a class="link-arrow" href="https://www.gmu.edu/" target="_blank" rel="noopener noreferrer">George Mason University<span aria-hidden="true">↗</span></a>
+          </p>
+        </div>
+      </article>
+
+      <article class="cred">
+        <button class="cred__toggle" type="button" aria-expanded="false" aria-controls="cred-saa">
+          <span class="cred__date">Certification</span>
+          <span class="cred__name">AWS Certified Solutions Architect, Associate</span>
+          <span class="cred__org">Amazon Web Services</span>
+          <span class="cred__sign" aria-hidden="true"></span>
+        </button>
+        <div class="cred__detail" id="cred-saa" hidden>
+          <p class="cred__blurb">The exam covers four domains:</p>
+          <ul class="domains">
+            <li>Design secure architectures</li>
+            <li>Design resilient architectures</li>
+            <li>Design high performing architectures</li>
+            <li>Design cost optimized architectures</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="cred">
+        <button class="cred__toggle" type="button" aria-expanded="false" aria-controls="cred-cp">
+          <span class="cred__date">Jan 2024 – Jan 2027</span>
+          <span class="cred__name">AWS Certified Cloud Practitioner</span>
+          <span class="cred__org">Amazon Web Services</span>
+          <span class="cred__sign" aria-hidden="true"></span>
+        </button>
+        <div class="cred__detail" id="cred-cp" hidden>
+          <ul class="facts">
+            <li><span>Credential ID</span><b>V527YX1DQEV11ZSP</b></li>
+            <li><span>Valid through</span><b>January 2027</b></li>
+          </ul>
+          <div class="validity" data-from="2024-01-01" data-to="2027-01-01">
+            <div class="validity__bar"><span></span></div>
+            <p class="validity__note"></p>
+          </div>
+          <p class="cred__link">
+            <a class="link-arrow" href="https://cp.certmetrics.com/amazon/en/public/verify/credential" target="_blank" rel="noopener noreferrer">Verify credential<span aria-hidden="true">↗</span></a>
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     06 · Contact
+     ============================================================ -->
+<section class="panel" id="contact" aria-labelledby="tab-contact">
+  <div class="shell">
+
+    <header class="panel__head">
+      <p class="eyebrow"><span class="eyebrow__idx">06</span> Contact</p>
+      <h2 class="panel__title">Hiring, or just want to compare notes?</h2>
+    </header>
+
+    <div class="contact">
+
+      <div class="contact__direct">
+        <h3 class="rule-label">Direct</h3>
+        <ul class="contact__links">
+          <li>
+            <a href="mailto:anushil7a@gmail.com">
+              <span class="contact__key">Email</span>
+              <span class="contact__val">anushil7a@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/anushil-adhikari/" target="_blank" rel="noopener noreferrer">
+              <span class="contact__key">LinkedIn</span>
+              <span class="contact__val">in/anushil-adhikari<span class="contact__ext" aria-hidden="true">↗</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/anushil7a" target="_blank" rel="noopener noreferrer">
+              <span class="contact__key">GitHub</span>
+              <span class="contact__val">@anushil7a<span class="contact__ext" aria-hidden="true">↗</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/10M2tpMH_hxz3T8ksM12cPZLUkrFtgV6O/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <span class="contact__key">Résumé</span>
+              <span class="contact__val">PDF<span class="contact__ext" aria-hidden="true">↗</span></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact__form-wrap">
+        <h3 class="rule-label">Send a message</h3>
+        <form class="form" id="contactForm" method="POST" action="https://formspree.io/f/mpwanawg" novalidate>
+          <div class="form__pair">
+            <div class="field">
+              <label for="cf-name">Name</label>
+              <input id="cf-name" name="name" type="text" autocomplete="name" required minlength="2">
+            </div>
+            <div class="field">
+              <label for="cf-email">Email</label>
+              <input id="cf-email" name="_replyto" type="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="cf-subject">Subject <span class="field__opt">optional</span></label>
+            <input id="cf-subject" name="_subject" type="text">
+          </div>
+          <div class="field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="4" required minlength="10"></textarea>
+          </div>
+          <button class="btn btn--solid" type="submit">Send message</button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="shell footer__inner">
+    <p class="footer__note">Built from scratch in HTML, CSS, and vanilla JavaScript. No template, no framework.</p>
+    <p class="footer__meta">© <span id="year">2026</span> Anushil Adhikari</p>
+  </div>
+</footer>
+
+<script src="js/site.js" defer></script>
 </body>
-
 </html>
